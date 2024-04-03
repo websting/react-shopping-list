@@ -3,7 +3,7 @@ import List from "./components/List";
 
 import { FaListCheck } from "react-icons/fa6";
 
-const title = `Today's list`;
+const title = `Ana's shopping list`;
 
 const App = () => {
   // starts state of input (empty)
@@ -40,14 +40,14 @@ const App = () => {
         <h2><FaListCheck className="icon" />{title}</h2>
 
         <div className="row">
-        <input type="text" placeholder="          Enter items"
+        <input type="text" placeholder="          Enter an item..."
         value={newItem}  // value is always going to be new item
         // when user inputs new values update state of list
         onChange={e => setNewItem(e.target.value)}
         />
         {/* when user clicks trigger addItem function */}
         <button className="button1" 
-        onClick={() => addItem()}>Add</button>
+        onClick={() => addItem()}>➕</button>
       
         </div>{/* authorising to use props in other componets */}
         <List items={items} setItems={setItems} />

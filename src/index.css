@@ -7,7 +7,7 @@
 .container{
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #006633, #86A8E7, #5FFBF1);
+  background: linear-gradient(135deg, #0f8047, #152132, #2dada5);
   padding: 10px;
 }
 .todo-app{
@@ -22,12 +22,13 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  color: #002765;
+  color: #333;
 }
 
 .icon{
   width: 30px;
   margin-left: 10px;
+  margin-right: 10px;
   color: chocolate;
 }
 .del{
@@ -54,7 +55,6 @@ input{
   border: none;
   outline: none;
   padding: 12px 30px;
-  background-color:chocolate;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
@@ -71,8 +71,8 @@ ul li{
   font-size: 16px;
   padding: 10px 8px 12px 20px;
   user-select: none;
-  background-color: #753f82;
-  color: white;
+  background-color:lightgray;
+  color: black;
   max-width: 325px;
   text-transform: capitalize;
 }
